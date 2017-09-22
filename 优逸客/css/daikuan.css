@@ -1,0 +1,235 @@
+/*
+* @Author: 史琳
+* @Date:   2017-07-23 11:33:15
+* @Last Modified by:   史琳
+* @Last Modified time: 2017-07-24 16:11:49
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	overflow: hidden;
+	position: fixed;
+	z-index: 999;
+}
+.headleft{
+	width: 0.77rem;
+	height: 0.72rem;
+	margin-left: 2.7rem;
+	margin-top: 0.09rem;
+	background: url('../img/logo.png') no-repeat 50% 50%;
+	background-size: 0.77rem 0.72rem;
+	float: left;
+	margin-right: 0.1rem;
+}
+.headright{
+	width: 1.23rem;
+	height: 0.36rem;
+	margin-top: 0.28rem;
+	font-size: 0.36rem;
+	color: #fff;
+    float: left;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.top{
+	width: 100%;
+	height: 0.8rem;
+	background: #f5f6fa;
+}
+.topleft{
+	width: 0.6rem;
+	height: 0.2rem;
+	margin-top: 0.25rem;
+	margin-left: 0.23rem;
+	font-size: 0.2rem;
+	color: #000;
+	float: left;
+	display: block;
+}
+.topmain{
+	width: 0.14rem;
+	height: 0.2rem;
+	margin-top: 0.25rem;
+	margin-left: 0.17rem;
+	font-size: 0.2rem;
+	color: #000;
+	float: left;
+}
+.topright{
+	width: 2.2rem;
+	height: 0.2rem;
+	margin-top: 0.25rem;
+	margin-left: 0.14rem;
+	font-size: 0.2rem;
+	color: #000;
+	float: left;
+}
+.dikuan{
+	width: 100%;
+	height: 16.5rem;
+	background: #f5f6fa;
+}
+.daikuanmain{
+	width: 93.6%;
+	height: 16.5rem;
+	background: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.daikuan1{
+	width: 6.6rem;
+	height: 0.24rem;
+    margin-top: 0.3rem;
+    margin-left: 0.19rem;
+}
+.daikuan11{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-top: 0.02rem;
+	margin-right: 0.1rem;
+	float: left;
+}
+.daikuan12{
+	width: 6.3rem;
+	height: 0.24rem;
+	font-size: 0.24rem;
+	color: #444444;
+    line-height: 0.24rem;
+    float: left; 
+}
+.daikuan2{
+	width: 6.4rem;
+	height: 0.15rem;
+	margin: 0 auto;
+	border-bottom: 0.01rem dashed #999999;
+	margin-bottom: 0.17rem;
+}
+.daikuan3{
+	width: 6.4rem;
+	height: 2rem;
+	margin: 0 auto;
+	margin-bottom: 0.4rem;
+	font-size: 0.24rem;
+	color: #666666;
+	line-height: 0.4rem;
+}
+.daikuan4{
+	width: 6.4rem;
+	height: 1.6rem;
+	margin: 0 auto;
+	margin-bottom: 0.4rem;
+	font-size: 0.24rem;
+	color: #666666;
+	line-height: 0.4rem;
+}
+.daikuan5{
+	width: 6.4rem;
+	height: 1.6rem;
+	margin: 0 auto;
+	margin-bottom: 0.4rem;
+	font-size: 0.24rem;
+	color: #666666;
+	line-height: 0.4rem;
+}
+.daikuan6{
+	width: 6.4rem;
+	height: 4rem;
+	margin: 0 auto;
+	margin-bottom: 0.3rem;
+	font-size: 0.24rem;
+	color: #666666;
+	line-height: 0.4rem;
+}
+.fangkuai{
+	width: 100%;
+	height: 3.64rem;
+	background: #474747;
+	margin-bottom: 0.3rem;
+}
+.qubei5{
+	width: 6.4rem;
+	height: 0.15rem;
+	margin: 0 auto;
+	border-bottom: 0.01rem dashed #999999;
+	margin-bottom: 0.27rem;
+}
+.qubei6{
+	width: 6.73rem;
+	height: 0.4rem;
+}
+.qubei61{
+	width: 1.18rem;
+	height: 0.4rem;
+	font-size: 0.2rem;
+	color: #000000;
+	line-height: 0.4rem;
+	float: left;
+}
+.qubei62{
+	width: 0.4rem;
+	height: 0.4rem;
+    float: left;
+    margin-right: 0.18rem;
+    display: block;
+}
+.qubei62 img{
+	width: 100%;
+	height: 100%;
+    display: block;
+}
+.qubei63{
+	width: 0.4rem;
+	height: 0.4rem;
+    float: left;
+    margin-right: 1.67rem;
+    display: block;
+}
+.qubei63 img{
+	width: 100%;
+	height: 100%;
+    display: block;
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.last1{
+	width: 100%;
+	height: 0.22rem;
+	margin: 0 auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.22rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.22rem;
+}
+.last2{
+	width: 100%;
+	height: 0.22rem;
+	margin: 0 auto;
+    font-size: 0.22rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.22rem;
+}

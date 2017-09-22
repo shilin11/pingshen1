@@ -1,0 +1,408 @@
+/*
+* @Author: 史琳
+* @Date:   2017-07-21 16:03:55
+* @Last Modified by:   史琳
+* @Last Modified time: 2017-07-24 16:14:42
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	overflow: hidden;
+	position: fixed;
+	z-index: 999;
+}
+.headleft{
+	width: 0.77rem;
+	height: 0.72rem;
+	margin-left: 2.7rem;
+	margin-top: 0.09rem;
+	background: url('../img/logo.png') no-repeat 50% 50%;
+	background-size: 0.77rem 0.72rem;
+	float: left;
+	margin-right: 0.1rem;
+}
+.headright{
+	width: 1.23rem;
+	height: 0.36rem;
+	margin-top: 0.28rem;
+	font-size: 0.36rem;
+	color: #fff;
+    float: left;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.top{
+	width: 100%;
+	height: 0.8rem;
+	background: #f5f6fa;
+}
+.topleft{
+	width: 0.6rem;
+	height: 0.2rem;
+	margin-top: 0.25rem;
+	margin-left: 0.23rem;
+	font-size: 0.2rem;
+	color: #000;
+	float: left;
+	display: block;
+}
+.topmain{
+	width: 0.14rem;
+	height: 0.2rem;
+	margin-top: 0.25rem;
+	margin-left: 0.17rem;
+	font-size: 0.2rem;
+	color: #000;
+	float: left;
+}
+.topright{
+	width: 1.2rem;
+	height: 0.2rem;
+	margin-top: 0.25rem;
+	margin-left: 0.14rem;
+	font-size: 0.2rem;
+	color: #000;
+	float: left;
+}
+.daohang{
+	width: 100%;
+	height: 1rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.daohangm{
+	width: 6.98rem;
+	height: 0.76rem;
+	background: #f5f6fa;
+	margin: 0 auto;
+    border-radius: 0.06rem;
+    border: 0.04rem solid #01b5ff;
+}
+.dohangleft{
+	display: block;
+	width: 2.57rem;
+	height: 0.76rem;
+	background: #01b5ff;
+    border-radius: 0.06rem;
+	float: left;
+	font-size: 0.25rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.76rem;
+}
+.dohangmain{
+	display: block;
+	width: 1.9rem;
+	height: 0.76rem;
+	float: left;
+	font-size: 0.25rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.76rem;
+}
+.dohangright{
+	display: block;
+	width: 2.5rem;
+	height: 0.76rem;
+	float: left;
+	font-size: 0.25rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.76rem;
+}
+.angle{
+	width: 0;
+	height: 0;
+	border-top: 0.16rem solid #01b5ff;
+	border-bottom: 0.16rem solid transparent;
+	border-left: 0.16rem solid transparent;
+	border-right: 0.16rem solid transparent;
+	margin-left: 1.2rem;
+	margin-top: 0.76rem;
+}
+.jieshao{
+	width: 100%;
+	height: 2.8rem;
+	background: #f5f6fa;
+}
+.jieshaomain{
+	width: 7.02rem;
+	height: 2.7rem;
+	background: #fff;
+	margin: 0 auto;
+}
+.jieshaoleft{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 0.06rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    float: left;
+}
+.jieshaoleft img{
+    width: 100%;
+    height: 100%;
+}
+.jieshaoright{
+	width: 4.24rem;
+	height: 2.7rem;
+	margin-left: 0.28rem;
+	float: left;
+}
+.jieshao1{
+	width: 100%;
+	height: 0.26rem;
+	margin-top: 0.39rem;
+}
+.jieshao11{
+	width: 1.3rem;
+	height: 0.26rem;
+	float: left;
+	font-size: 0.26rem;
+	color: #000;
+	line-height: 0.26rem;
+}
+.jieshao12{
+	display: block;
+	height: 0.26rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #ff9300;
+	padding-left: 1.56rem;
+	line-height: 0.26rem;
+	
+}
+.jieshao2{
+	width: 1.72rem;
+	height: 0.09rem;
+	border-bottom: 0.01rem dashed #999999;
+}
+.jieshao3{
+	width: 1.72rem;
+	height: 0.24rem;
+	margin-top: 0.1rem;
+	font-size: 0.24rem;
+	color: #01b5ff;
+	line-height: 0.24rem;
+}
+.jieshao4{
+	width: 3.2rem;
+	height: 1rem;
+	margin-top: 0.26rem;
+	font-size: 0.24rem;
+	color: #666666;
+	line-height: 0.33rem;
+}
+.yeshu{
+	width: 100%;
+	height: 0.7rem;
+	background: #fff;
+	overflow: hidden;
+}
+.yeshuleft{
+	width: 4.7rem;
+	height: 0.32rem;
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 0.16rem;
+	margin-right: 0.18rem;
+}
+.yeshuleft1{
+	width: 0.58rem;
+	height: 0.32rem;
+	float: left;
+	margin-right: 0.15rem;
+	display: block;
+}
+.yeshuleft1 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.yeshuleft2{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	margin-right: 0.15rem;
+	display: block;
+}
+.yeshuleft2 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.yeshuleft3{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	margin-right: 0.15rem;
+	display: block;
+}
+.yeshuleft3 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+
+}
+.yeshuleft4{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	margin-right: 0.15rem;
+	display: block;
+}
+.yeshuleft4 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.yeshuleft5{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	margin-right: 0.15rem;
+	display: block;
+}
+.yeshuleft5 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.yeshuleft6{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	margin-right: 0.19rem;
+	display: block;
+}
+.yeshuleft6 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.yeshuleft7{
+	width: 0.26rem;
+	height: 0.32rem;
+	float: left;
+	margin-right: 0.19rem;
+	font-size: 0.18rem;
+	color: #000;
+	line-height: 0.32rem;
+	display: block;
+}
+.yeshuleft8{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	margin-right: 0.19rem;
+	display: block;
+}
+.yeshuleft8 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.yeshuleft9{
+	width: 0.58rem;
+	height: 0.32rem;
+	float: left;
+	display: block;
+}
+.yeshuleft9 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.yeshuright{
+	width: 2.46rem;
+	height: 0.33rem;
+	float: left;
+	margin-top: 0.19rem;
+}
+.ys1{
+	width: 2rem;
+	height: 0.33rem;
+	float: left;
+}
+.ys11{
+	width: 1rem;
+	height: 0.33rem;
+	font-size: 0.18rem;
+	color: #000;
+	line-height: 0.33rem;
+	float: left;
+    margin-right: 0rem;
+}
+.ys12{
+	width: 0.6rem;
+	height: 0.33rem;
+	float: left;
+	margin-right: 0.03rem;
+
+}
+.ys12 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.ys13{
+	width: 0.33rem;
+	height: 0.33rem;
+	font-size: 0.18rem;
+	color: #000;
+	line-height: 0.33rem;
+	float: left;
+}
+.ys2{
+	width: 0.33rem;
+	height: 0.33rem;
+	float: left;
+}
+.ys2 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.last1{
+	width: 100%;
+	height: 0.22rem;
+	margin: 0 auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.22rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.22rem;
+}
+.last2{
+	width: 100%;
+	height: 0.22rem;
+	margin: 0 auto;
+    font-size: 0.22rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.22rem;
+}

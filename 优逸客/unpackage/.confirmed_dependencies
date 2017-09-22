@@ -1,0 +1,156 @@
+{
+	"shouye.html": {
+		"resources": [
+			"img/2_03 (4).png",
+			"img/2_03 (3).png",
+			"img/unique_19.png",
+			"img/unique2_21.png",
+			"img/2_03 (5).png",
+			"img/unique2_09.png",
+			"js/rem.js",
+			"img/unique2_20.png",
+			"img/界面改版2_02.png",
+			"img/2_03 (2).png",
+			"img/unique2_07.png",
+			"img/unique2_22.png",
+			"img/2_03 (1).png",
+			"img/logo.png",
+			"css/shouye.css",
+			"img/unique2_11.png",
+			"img/unique2_05.png",
+			"qianduan.html",
+			"shizi.html",
+			"img/banner.png",
+			"xueyuan.html",
+			"wenti.html",
+			"meiti.html",
+			"women.html",
+			"daikuan.html",
+			"iconfont/iconfont.woff",
+			"iconfont/iconfont.css"
+		],
+		"refer": [
+			"qianduan.html",
+			"shizi.html",
+			"xueyuan.html",
+			"wenti.html",
+			"meiti.html",
+			"women.html",
+			"daikuan.html"
+		]
+	},
+	"qianduan.html": {
+		"resources": [
+			"css/qianduan.css",
+			"img/qd-r2.png",
+			"img/qianduan_09.png",
+			"shouye.html",
+			"img/qd2.png",
+			"img/qianduan_03.png",
+			"img/qd-r3.png",
+			"img/qd-r1.png",
+			"img/qianduan_07.png",
+			"img/qianduan_05.png",
+			"img/qd3.png",
+			"img/界面改版2_02.png"
+		],
+		"refer": [
+			"shouye.html"
+		]
+	},
+	"shizi.html": {
+		"resources": [
+			"img/721_11.png",
+			"img/721_09.png",
+			"img/21_03.png",
+			"img/shizi_08.png",
+			"img/445_07.png",
+			"img/445_05.png",
+			"img/21_07.png",
+			"img/21_13.png",
+			"img/21_05.png",
+			"img/14_06.png",
+			"img/445_03.png",
+			"css/shizi.css",
+			"img/界面改版2_02.png",
+			"shizixiangqing.html",
+			"img/banner.png",
+			"js/rem.js",
+			"img/logo.png",
+			"shouye.html"
+		],
+		"refer": [
+			"shizixiangqing.html",
+			"shouye.html"
+		]
+	},
+	"shizixiangqing.html": {
+		"resources": [
+			"css/shizixiangqing.css",
+			"shouye.html",
+			"img/界面改版2_02.png"
+		],
+		"refer": [
+			"shouye.html"
+		]
+	},
+	"xueyuan.html": {
+		"resources": [
+			"css/xueyuan.css",
+			"shouye.html"
+		],
+		"refer": [
+			"shouye.html"
+		]
+	},
+	"wenti.html": {
+		"resources": [
+			"css/wenti.css",
+			"shouye.html"
+		],
+		"refer": [
+			"shouye.html"
+		]
+	},
+	"meiti.html": {
+		"resources": [
+			"img/722_07.png",
+			"img/722_05.png",
+			"img/722_03.png",
+			"css/meiti.css",
+			"shouye.html"
+		],
+		"refer": [
+			"shouye.html"
+		]
+	},
+	"women.html": {
+		"resources": [
+			"img/721_05.png",
+			"css/womwn.css",
+			"img/721_13.png",
+			"img/721_07.png",
+			"img/721_03.png",
+			"shouye.html"
+		],
+		"refer": [
+			"shouye.html"
+		]
+	},
+	"daikuan.html": {
+		"resources": [
+			"img/wx.png",
+			"img/kj.png",
+			"img/wb.png",
+			"css/daikuan.css",
+			"img/211_05.png",
+			"img/tx.png",
+			"img/qq (1).png",
+			"img/211_03.png",
+			"shouye.html"
+		],
+		"refer": [
+			"shouye.html"
+		]
+	}
+}

@@ -1,0 +1,334 @@
+/*
+* @Author: 史琳
+* @Date:   2017-07-22 20:16:06
+* @Last Modified by:   史琳
+* @Last Modified time: 2017-07-24 16:16:20
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	overflow: hidden;
+	position: fixed;
+	z-index: 999;
+}
+.headleft{
+	width: 0.77rem;
+	height: 0.72rem;
+	margin-left: 2.7rem;
+	margin-top: 0.09rem;
+	background: url('../img/logo.png') no-repeat 50% 50%;
+	background-size: 0.77rem 0.72rem;
+	float: left;
+	margin-right: 0.1rem;
+}
+.headright{
+	width: 1.23rem;
+	height: 0.36rem;
+	margin-top: 0.28rem;
+	font-size: 0.36rem;
+	color: #fff;
+    float: left;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.top{
+	width: 100%;
+	height: 0.8rem;
+	background: #f5f6fa;
+}
+.topleft{
+	width: 0.6rem;
+	height: 0.2rem;
+	margin-top: 0.25rem;
+	margin-left: 0.23rem;
+	font-size: 0.2rem;
+	color: #000;
+	float: left;
+	display: block;
+}
+.topmain{
+	width: 0.14rem;
+	height: 0.2rem;
+	margin-top: 0.25rem;
+	margin-left: 0.17rem;
+	font-size: 0.2rem;
+	color: #000;
+	float: left;
+}
+.topright{
+	width: 2.2rem;
+	height: 0.2rem;
+	margin-top: 0.25rem;
+	margin-left: 0.14rem;
+	font-size: 0.2rem;
+	color: #000;
+	float: left;
+}
+.qubei{
+	width: 100%;
+	height: 15.64rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.qubeimain{
+	width: 93.6%;
+	height: 15.94rem;
+	background: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.qubei1{
+	width: 6.6rem;
+	height: 0.24rem;
+    margin-top: 0.3rem;
+    margin-left: 0.19rem;
+}
+.qubei11{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-top: 0.02rem;
+	margin-right: 0.1rem;
+	float: left;
+}
+.qubei12{
+	width: 6.3rem;
+	height: 0.24rem;
+	font-size: 0.24rem;
+	color: #444444;
+    line-height: 0.24rem;
+    float: left; 
+}
+.qubei2{
+	width: 6.4rem;
+	height: 0.15rem;
+	margin: 0 auto;
+	border-bottom: 0.01rem dashed #999999;
+	margin-bottom: 0.17rem;
+}
+.qubei3{
+	width: 6.38rem;
+	height: 6.88rem;
+	margin-left: 0.48rem; 
+}
+.dibu{
+	width: 100%;
+	height: 0.4rem;
+}
+p{
+	font-size: 0.20rem;
+	color: #666666;
+}
+.fangkuai{
+	width: 100%;
+	height: 3.64rem;
+	background: #474747;
+	margin-bottom: 0.3rem;
+}
+.qubei4{
+	width: 6.38rem;
+	height: 3.08rem;
+	margin-left: 0.48rem; 
+}
+.qubei5{
+	width: 6.4rem;
+	height: 0.15rem;
+	margin: 0 auto;
+	border-bottom: 0.01rem dashed #999999;
+	margin-bottom: 0.27rem;
+}
+.qubei6{
+	width: 6.73rem;
+	height: 0.4rem;
+}
+.qubei61{
+	width: 1.18rem;
+	height: 0.4rem;
+	font-size: 0.2rem;
+	color: #000000;
+	line-height: 0.4rem;
+	float: left;
+}
+.qubei62{
+	width: 0.4rem;
+	height: 0.4rem;
+    float: left;
+    margin-right: 0.18rem;
+    display: block;
+}
+.qubei62 img{
+	width: 100%;
+	height: 100%;
+    display: block;
+}
+.qubei63{
+	width: 0.4rem;
+	height: 0.4rem;
+    float: left;
+    margin-right: 1.67rem;
+    display: block;
+}
+.qubei63 img{
+	width: 100%;
+	height: 100%;
+    display: block;
+}
+.mulu{
+	width: 100%;
+	height: 1.22rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.mulu1{
+	width: 6.62rem;
+	height: 0.24rem;
+	margin-top: 0.3rem;
+	margin-left: 0.33rem;
+	margin-bottom: 0.17rem;
+	display: block;
+}
+.mulu2{
+	width: 6.62rem;
+	height: 0.24rem;
+	margin-left: 0.33rem;
+	display: block;
+}
+.mulu11{
+	width: 1.2rem;
+	height: 0.24rem;
+	float: left;
+	font-size: 0.2rem;
+	color: #000;
+	line-height: 0.24rem;
+}
+.mulu12{
+	width: 5.42rem;
+	height: 0.24rem;
+	float: left;
+	font-size: 0.2rem;
+	color: #01b5ff;
+	line-height: 0.24rem;
+}
+.xiangguan{
+	width: 100%;
+	height: 2.77rem;
+	background: #f5f6fa;
+}
+.xiangguanmain{
+	width: 93.6%;
+	height: 2.77rem;
+	background: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.xiangguan1{
+	width: 6.6rem;
+	height: 0.24rem;
+    margin-top: 0.3rem;
+    margin-left: 0.19rem;
+}
+.xiangguan11{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-top: 0.02rem;
+	margin-right: 0.1rem;
+	float: left;
+}
+.xiangguan12{
+	width: 6.3rem;
+	height: 0.24rem;
+	font-size: 0.24rem;
+	color: #444444;
+    line-height: 0.24rem;
+    float: left; 
+}
+.xiangguan2{
+	width: 6.68rem;
+    height: 0.24rem;
+    margin-top: 0.2rem;
+    margin-left: 0.19rem;
+}
+.xiangguan21{
+	width: 0.3rem;
+	height: 0.24rem;
+	float: left;
+}
+.quan1{
+	width: 0.12rem;
+	height: 0.12rem;
+	border-radius: 50%;
+	background: #01b5ff;
+	box-shadow: 0 0.04rem 0.1rem 0.06rem #bcecff;
+	margin-top: 0.08rem;
+	position: relative;
+}
+.quan2{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #01b5ff;
+	border-radius: 50%;
+	border: 0.02rem solid #fff;
+    position: absolute;
+    top: 0.02rem;
+    left: 0.02rem;
+}
+.xiangguan22{
+    width: 6.38rem;
+    height: 0.24rem;
+    float: left;
+    font-size: 0.24rem;
+    color: #000;
+    line-height: 0.24rem;
+}
+.xiangguan23{
+    width: 6.38rem;
+    height: 0.24rem;
+    float: left;
+    font-size: 0.22rem;
+    color: #01b5ff;
+    line-height: 0.24rem;
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.last1{
+	width: 100%;
+	height: 0.22rem;
+	margin: 0 auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.22rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.22rem;
+}
+.last2{
+	width: 100%;
+	height: 0.22rem;
+	margin: 0 auto;
+    font-size: 0.22rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.22rem;
+}
