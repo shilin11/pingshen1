@@ -93,10 +93,10 @@ $(function(){
         arr.push($(this).offset().top);
     })
     $('.cehang12').click(function(){
-        $('body').animate({scrollTop: 0}, 'normal');
+        $(document.documentElement).animate({scrollTop: 0}, 'normal');
     })
    $('.asidee>div').click(function(){
-        $('body').animate({scrollTop: 0}, 'normal');
+        $(document.documentElement).animate({scrollTop: 0}, 'normal');
     })
     $(window).scroll(function(){
         // var body=document.body?document.body:document.documentElement;
@@ -134,7 +134,7 @@ $(function(){
     })
     $('.asidee>a').click(function(){
         let index=$(this).index();
-        $('body').animate({scrollTop:arr[index]}, 'normal');
+        $(document.documentElement).animate({scrollTop:arr[index]}, 'normal');
         for(let i=0;i<arr.length;i++){
            $('.asidee>a').eq(i).removeClass(`color${i}`); 
         }
