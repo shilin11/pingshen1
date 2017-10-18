@@ -98,8 +98,8 @@ $(function(){
    $('.asidee>div').click(function(){
         $('body').animate({scrollTop: 0}, 'normal');
     })
-    var body=document.body?document.body:document.documentElement;
     $(window).scroll(function(){
+        var body=document.body?document.body:document.documentElement;
         let hh=$(body).scrollTop();
         arr.forEach(function(value,num2){
             if(H+hh>=value+360){
