@@ -3531,9 +3531,9 @@ padding-left: 0px;
 	width: 35px;
 	background: #000000;
 	position: fixed;
-	bottom: 0px;
-	top: 0px;
-	right: 0px;
+	bottom: 0;
+	top: 0;
+	right: 0;
 	z-index: 999999999999;
 }
 .cehang1{
@@ -3696,8 +3696,7 @@ padding-left: 0px;
 .cehang12{
 	width: 35px;
 	height: 28px;
-	display: block;
-	margin-top: 16px;
+	margin-top: 10px;
 	display: none;
 	position: relative;
 	font-size: 12px;
