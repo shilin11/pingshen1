@@ -99,8 +99,9 @@ $(function(){
         $('body').animate({scrollTop: 0}, 'normal');
     })
     $(window).scroll(function(){
-        var body=document.body?document.body:document.documentElement;
-        let hh=$(body).scrollTop();
+        // var body=document.body?document.body:document.documentElement;
+        var hh=$(document.body).scrollTop();
+        var hh=$(document.documentElement).scrollTop();
         arr.forEach(function(value,num2){
             if(H+hh>=value+360){
                 $('.asidee>a').eq(num1).removeClass(`color${num1}`);
